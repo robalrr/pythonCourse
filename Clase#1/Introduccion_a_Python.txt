@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-05-01T14:29:39-06:00
+
+====== 1. Introducción a Python ======
+
+a. ¿Qué es Python?
+https://www.youtube.com/watch?v=yFCBtZoiYsA
+https://www.youtube.com/watch?v=Q9nlKexUAl0
+
+
+b. Instalación
+Instalación de python3
+$ sudo apt-get install python3
+Mac: https://es.wikibooks.org/wiki/Python/Instalaci%C3%B3n_de_Python/Python_en_Mac_OS_X
+
+Instalación de pip
+(herramienta que permite instalar paquetes (módulos) para trabajar con Python)
+$ sudo apt-get install python3-pip 
+
+Instalación de Jupyter
+$ python3 -m pip install --upgrade pip
+$ python3 -m pip install jupyter
+
+
+c. El intérprete de comandos
+$ python3
+* ejecutar un par de operaciones, usando la consola como simple calculadora
+* sumar, multiplicar y demás, mediante la asignación de variables
+* Usar una lista (estructura de datos)
+* semana = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo']
+* acceder a estos elementos semana[0] 
+* imprimir mediante un for
+for i in range(0, 7):
+   print(semana[i])
+* imprimir mediante un while 
+while i<7:
+  print(semana[i])
+  i += 1
+se dará un error porque i ya tenía asignado el valor 7, por lo tanto, se debe de reiniciar el valor de i 
+i = 0
+* importar un archivo generado
+
